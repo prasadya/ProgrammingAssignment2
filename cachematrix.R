@@ -8,9 +8,9 @@
 
 
 ## makeCacheMatrix creates a list from functions that allows the user to:
-## 1. Set the value of the matrix x.  x$set()
+## 1. Set the value of the matrix x in cache.  x$set(Matrix)
 ## 2. Retrieve the value of matrix x. x$get()
-## 3. Set the inverse of matrix x. x$setinverse(inverse)
+## 3. Set the inverse of matrix x in cache. x$setinverse(inverseMatrix)
 ## 4. Retreive the inverse of matrix x. x$getinverse()
 
 makeCacheMatrix <- function(x = matrix()) {
